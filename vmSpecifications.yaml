@@ -1,0 +1,116 @@
+"vm-01":
+  cpu: 2
+  memory: 8192
+  os: "ubuntu64Guest"
+  diskcontrollers:
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 500
+  nictype: "VMXNET3"
+  network: "vmware"
+"vm-02":
+  cpu: 1
+  memory: 1024
+  os: "ubuntu64Guest"
+  diskcontrollers:
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 20
+  nictype: "VMXNET3"
+  network: "vmware"
+"vm-03":
+  cpu: 2
+  memory: 4096
+  os: "ubuntu64Guest"
+  diskcontrollers:
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 50
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 100
+  nictype: "VMXNET3"
+  network: "vmware"
+"vm-04":
+  cpu: 2
+  memory: 8192
+  os: "windows8Server64Guest"
+  diskcontrollers:
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 100
+    - size: 250
+  nictype: "VMXNET3"
+  network: "vmware"
+"vm-05":
+  cpu: 2
+  memory: 8196
+  os: "ubuntu64Guest"
+  diskcontrollers:
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 50
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 250
+  nictype: "VMXNET3"
+  network: "vmware"
+"vm-06":
+  cpu: 2
+  memory: 16384
+  os: "windows8Server64Guest"
+  diskcontrollers:
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 100
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 250
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 300
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 100
+  nictype: "VMXNET3"
+  network: "vmware"
+"vm-07":
+  cpu: 1
+  memory: 2048
+  os: "ubuntu64Guest"
+  diskcontrollers:
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 50
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 1000
+  nictype: "VMXNET3"
+  network: "vmware"
+"vm-08":
+  cpu: 2
+  memory: 8192
+  os: "centos64Guest"
+  diskcontrollers:
+  - diskcontroller: "lsi logic parallel"
+    disks:
+    - size: 50
+  - diskcontroller: "lsi logic parallel"
+    disks:
+    - size: 100
+  nictype: "VMXNET3"
+  network: "vmware"
+"vm-09":
+  cpu: 2
+  memory: 16384
+  os: "rhel7_64Guest"
+  diskcontrollers:
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 50
+  - diskcontroller: "paravirtual"
+    disks:
+    - size: 200
+  nictype: "VMXNET3"
+  network: "vmware"
+
